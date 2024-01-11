@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+/* Top start  */
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    color: white;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.img img {
+    margin-bottom: -2rem;
+    overflow: hidden;
+}
+
+.main_content h1 {
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    filter: drop-shadow(3px 2px 16px);
+}
+
+.main_content p {
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+}
+
+/* top end  */
+
+
+/* about start */
+
+.about {
+    margin: 1rem 15rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: -8px -4px 25px rgba(255, 255, 255, 0.5);
+}
+
+.main_heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: red;
+}
+
+.about p {
+    letter-spacing: 0.5px;
+}
+
+.about h3 {
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+.about ol {
+    padding: 2rem;
+}
+
+.about ol li {
+    margin-top: 0.5rem;
+}
+
+.about ol li span {
+    font-size: 1.2rem;
+    /* color: red; */
+    font-weight: 600;
+}
+
+.conclusion {
+    margin-top: 2rem;
+}
+
+/* about section end  */
+
+a {
+    text-decoration: none;
+    color: red;
+}
